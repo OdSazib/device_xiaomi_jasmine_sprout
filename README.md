@@ -1,4 +1,6 @@
-Copyright (C) 2018 Xiaomi-SDM660 Project
+
+Copyright (C) 2018 The LineageOS Project
+Copyright (C) 2018-2021 Xioami-SDM660 Project
 
 The MI A2 (codenamed _"jasmine_sprout"_) is a mid-range phone from Xiaomi.
 
