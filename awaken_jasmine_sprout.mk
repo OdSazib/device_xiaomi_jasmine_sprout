@@ -9,16 +9,7 @@ $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
 # Inherit some common stuff from Project-Awaken
 AWAKEN_BUILD_TYPE := OFFICIAL
-$(call inherit-product, vendor/awaken/config/common.mk)
-$(call inherit-product, vendor/awaken/config/gsm.mk)
-
-# Gapps
-USE_GAPPS := true
-IS_PHONE := true
-TARGET_GAPPS_ARCH := arm64
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_STOCK_ARCORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
