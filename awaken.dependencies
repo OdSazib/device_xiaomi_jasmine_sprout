@@ -3,12 +3,6 @@
     "remote"      : "github",
     "repository"  : "OdSazib/device_xiaomi_wayne-common",
     "target_path" : "device/xiaomi/wayne-common",
-    "branch"      : "11-4.19"
-  },
-  {
-    "remote"      : "github",
-    "repository"  : "xiaomi-sdm660/android_recovery_twrp",
-    "target_path" : "recovery/twrp/xiaomi/jasmine_sprout",
-    "branch"      : "jasmine_sprout"
+    "branch"      : "12"
   }
 ]

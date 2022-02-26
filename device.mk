@@ -30,10 +30,6 @@ PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/c0c4000.sdhci/by-name
 PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/soc/c0c4000.sdhci/by-name/vendor
 $(call inherit-product, build/target/product/verity.mk)
 
-# Watermark
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/media/MIUI_DualCamera_watermark.png:$(TARGET_COPY_OUT_VENDOR)/etc/MIUI_DualCamera_watermark.png
-
 # Wifi
 PRODUCT_PACKAGES += \
     JasmineWifiOverlay

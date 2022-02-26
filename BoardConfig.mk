@@ -15,8 +15,3 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Properties
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
-
-# TWRP Support
-ifeq ($(BUILD_TWRP), true)
--include recovery/twrp/xiaomi/jasmine_sprout/twrp.mk
-endif
