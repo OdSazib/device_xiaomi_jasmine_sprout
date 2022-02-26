@@ -14,6 +14,10 @@ $(call inherit-product, device/xiaomi/wayne-common/wayne-common.mk)
 # A/B
 ENABLE_AB := true
 
+# Fstab
+PRODUCT_PACKAGES += \
+    fstab.qcom
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
