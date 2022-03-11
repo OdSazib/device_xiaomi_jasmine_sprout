@@ -10,8 +10,8 @@ include device/xiaomi/wayne-common/BoardConfigCommon.mk
 # Device Path
 DEVICE_PATH := device/xiaomi/jasmine_sprout
 
-# Manifest
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Properties
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
